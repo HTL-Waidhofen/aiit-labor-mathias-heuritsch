@@ -1,0 +1,7 @@
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\bin\Debug\Labdesnochnwiderstand.exe.config
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\bin\Debug\Labdesnochnwiderstand.exe
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\bin\Debug\Labdesnochnwiderstand.pdb
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\obj\Debug\Labdesnochnwiderstand.csproj.AssemblyReference.cache
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\obj\Debug\Labdesnochnwiderstand.csproj.CoreCompileInputs.cache
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\obj\Debug\Labdesnochnwiderstand.exe
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Labdesnochnwiderstand\Labdesnochnwiderstand\obj\Debug\Labdesnochnwiderstand.pdb

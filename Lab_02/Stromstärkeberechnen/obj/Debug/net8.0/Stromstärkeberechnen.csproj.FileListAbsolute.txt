@@ -1,0 +1,15 @@
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\bin\Debug\net8.0\Stromstärkeberechnen.exe
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\bin\Debug\net8.0\Stromstärkeberechnen.deps.json
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\bin\Debug\net8.0\Stromstärkeberechnen.runtimeconfig.json
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\bin\Debug\net8.0\Stromstärkeberechnen.dll
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\bin\Debug\net8.0\Stromstärkeberechnen.pdb
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.AssemblyInfoInputs.cache
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.AssemblyInfo.cs
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.csproj.CoreCompileInputs.cache
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.sourcelink.json
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.dll
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\refint\Stromstärkeberechnen.dll
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.pdb
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\Stromstärkeberechnen.genruntimeconfig.cache
+C:\Schule\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Stromstärkeberechnen\obj\Debug\net8.0\ref\Stromstärkeberechnen.dll
