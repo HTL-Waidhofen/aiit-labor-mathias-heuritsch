@@ -1,0 +1,8 @@
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\bin\Debug\Lab_04_Bruchrechnung.exe.config
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\bin\Debug\Lab_04_Bruchrechnung.exe
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\bin\Debug\Lab_04_Bruchrechnung.pdb
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\obj\Debug\Lab_04_Bruchrechnung.csproj.AssemblyReference.cache
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\obj\Debug\Lab_04_Bruchrechnung.csproj.CoreCompileInputs.cache
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\obj\Debug\Lab_04_Bruchrechnung.exe
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\obj\Debug\Lab_04_Bruchrechnung.pdb
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Lab_04_Bruchrechnung\Lab_04_Bruchrechnung\obj\Debug\Lab_04_Bruchrechnung.exe.config
