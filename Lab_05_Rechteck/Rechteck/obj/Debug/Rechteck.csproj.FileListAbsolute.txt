@@ -1,0 +1,8 @@
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\bin\Debug\Rechteck.exe.config
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\bin\Debug\Rechteck.exe
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\bin\Debug\Rechteck.pdb
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\obj\Debug\Rechteck.csproj.AssemblyReference.cache
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\obj\Debug\Rechteck.csproj.CoreCompileInputs.cache
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\obj\Debug\Rechteck.exe
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\obj\Debug\Rechteck.pdb
+C:\3AHET\Labor(Visualstudio!Github\aiit-labor-mathias-heuritsch\Rechteck\Rechteck\obj\Debug\Rechteck.exe.config
