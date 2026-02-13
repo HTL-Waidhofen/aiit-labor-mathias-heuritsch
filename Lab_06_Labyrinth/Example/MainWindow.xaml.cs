@@ -21,6 +21,8 @@ namespace Example
     /// </summary>
     public partial class MainWindow : Window
     {
+        Figur figur; 
+
         public MainWindow()
         {
             InitializeComponent();
@@ -47,7 +49,8 @@ namespace Example
                     }
                     else if (zeilen[i][j]=='X')
                     {
-
+                        figur = new Figure();
+                        figur.Width = 20;
                     }
                     else
                     {
@@ -66,6 +69,14 @@ namespace Example
 
 
 
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Right)
+            {
+                
+            }
         }
     }
 }

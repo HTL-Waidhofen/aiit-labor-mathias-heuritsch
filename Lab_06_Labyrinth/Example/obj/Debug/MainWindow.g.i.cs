@@ -79,6 +79,14 @@ namespace Example {
             switch (connectionId)
             {
             case 1:
+            
+            #line 8 "..\..\MainWindow.xaml"
+            ((Example.MainWindow)(target)).KeyDown += new System.Windows.Input.KeyEventHandler(this.Window_KeyDown);
+            
+            #line default
+            #line hidden
+            return;
+            case 2:
             this.Spielfeld = ((System.Windows.Controls.Canvas)(target));
             return;
             }
