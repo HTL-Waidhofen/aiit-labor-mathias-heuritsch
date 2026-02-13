@@ -21,14 +21,14 @@ namespace Example
     /// </summary>
     public partial class MainWindow : Window
     {
-        Figur figur; 
+        Figur figur;
 
         public MainWindow()
         {
             InitializeComponent();
             this.Spielfeld.Background = Brushes.Black;
-            Canvas c; 
-
+            Canvas c;
+            
             StreamReader reader =new StreamReader("maze_6x6.txt");
             string inhalt =reader.ReadToEnd();
             string[] zeilen = inhalt.Split('\n');
@@ -49,8 +49,8 @@ namespace Example
                     }
                     else if (zeilen[i][j]=='X')
                     {
-                        figur = new Figure();
-                        figur.Width = 20;
+                        figur = new Figur(j * 20, i * 20);
+                        Spielfeld.Children.Add(figur.GetEllipse());
                     }
                     else
                     {
@@ -74,8 +74,8 @@ namespace Example
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Right)
-            {
-                
+            { 
+                figur.Bewegen(1, 0);
             }
         }
     }
