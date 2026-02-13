@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.IO;
+
+namespace Example
+{
+    /// <summary>
+    /// Interaktionslogik für MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            this.Spielfeld.Background = Brushes.Black;
+            Canvas c; 
+
+            StreamReader reader =new StreamReader("maze_6x6.txt");
+            string inhalt =reader.ReadToEnd();
+            string[] zeilen = inhalt.Split('\n');
+
+            for (int i = 0; i < zeilen.Length; i++)
+            {
+                for (int j = 0; j < zeilen[i].Length;j++)
+                {
+                    if( zeilen[i][j] =='#')
+                    {
+                        c = new Canvas();
+                        c.Background = Brushes.Yellow;
+                        c.Width = 20;
+                        c.Height = 20;
+                        Canvas.SetTop(c, i * 20);
+                        Canvas.SetLeft(c, j * 20);
+                        Spielfeld.Children.Add(c);
+                    }
+                    else if (zeilen[i][j]=='X')
+                    {
+
+                    }
+                    else
+                    {
+                        c = new Canvas();
+                        c.Background = Brushes.White;
+                        c.Width = 20;
+                        c.Height = 20;
+                        Canvas.SetTop(c, i * 20);
+                        Canvas.SetLeft(c, j * 20);
+                        Spielfeld.Children.Add(c);
+                    }
+                }
+                
+
+            }
+
+
+
+        }
+    }
+}
