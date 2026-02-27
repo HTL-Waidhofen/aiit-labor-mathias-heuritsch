@@ -4,42 +4,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Example
 {
     internal class Figur
     {
-        int hoehe = 16;
-        int breite = 16;
-        int x;
-        int y;
-        Ellipse geometrie;
+        float width;
+        float height;
+        float posx;
+        float posy;
 
-        public Figur(int x, int y)
+        public Ellipse Ellipse { get; set; }
+
+        public float Width { get => width; set => width = value; }
+        public float Height { get => height; set => height = value; }
+        public float Posx { get => posx; set => posx = value; }
+        public float Posy { get => posy; set => posy = value; }
+
+        public Figur(int x, int y, int w, int h)
         {
-            this.x = x;
-            this.y = y;
-            geometrie = new Ellipse();
-            geometrie.Width = breite;
-            geometrie.Height = hoehe;
-            geometrie.Fill = Brushes.Firebrick;
-            Canvas.SetLeft(geometrie, x);
-            Canvas.SetTop(geometrie, y);
+            posx = x;
+            posy = y;
+            Ellipse = new Ellipse();
+            Ellipse.Width = w;
+            Ellipse.Height = h;
+            Ellipse.Fill = System.Windows.Media.Brushes.Red;
+            Canvas.SetTop(Ellipse, y);
+            Canvas.SetLeft(Ellipse, x);
         }
 
-        public void Bewegen(int dx, int dy)
+        public void Move(int x, int y)
         {
-            x += dx;
-            y += dy;
-            Canvas.SetLeft(geometrie, x);
-            Canvas.SetTop(geometrie, y);
-        }
-
-        public Ellipse GetEllipse()
-        {
-            return geometrie;
+            posx += x;
+            posy += y;
+            Canvas.SetTop(Ellipse, posy);
+            Canvas.SetLeft(Ellipse, posx);
         }
     }
 }
