@@ -67,7 +67,8 @@ namespace Example
         {
             if (e.Key == Key.S)
             {
-                figur.Move(0, 20);
+                if (notWall(0, 20))
+                    figur.Move(0, 20);
             }
 
             /*
@@ -107,6 +108,31 @@ namespace Example
             }
             */
             
+        }
+        public bool notWall(float x, float y)
+        {
+            float newx = figur.Posx + x;
+            float newy = figur.Posy + y;
+
+            bool notWall = false;
+                       for (int i = 0; i < Spielfeld.Children.Count; i++)
+            {
+                if (Spielfeld.Children[i] is Canvas feld)
+                {
+                    if (Canvas.GetTop(feld) == newy &&
+                        Canvas.GetLeft(feld) == newx)
+                    {
+                        // 🔎 Prüfen ob das Feld gelb ist
+                        if (feld.Background is SolidColorBrush brush &&
+                            brush.Color == Colors.Yellow)
+                        {
+                            notWall = false;
+                        }
+                        else notWall = true;
+                    }
+                }
+            }
+            return notWall;
         }
     }
 }
