@@ -71,6 +71,21 @@ namespace Example
                     figur.Move(0, 20);
             }
 
+            if (e.Key == Key.W)
+            {
+                if (notWall(0, -20))
+                    figur.Move(0, -20);
+            }
+            if (e.Key == Key.A)
+            {
+                if (notWall(-20, 0))
+                    figur.Move(-20, 0);
+            }
+            if (e.Key == Key.D)
+            {
+                if (notWall(20, 0))
+                    figur.Move(20, 0);
+            }
             /*
             if (e.Key == Key.S)
             {
@@ -107,14 +122,14 @@ namespace Example
                 }
             }
             */
-            
+
         }
         public bool notWall(float x, float y)
         {
             float newx = figur.Posx + x;
             float newy = figur.Posy + y;
 
-            bool notWall = false;
+            bool notWall = true;
                        for (int i = 0; i < Spielfeld.Children.Count; i++)
             {
                 if (Spielfeld.Children[i] is Canvas feld)
@@ -128,7 +143,7 @@ namespace Example
                         {
                             notWall = false;
                         }
-                        else notWall = true;
+                        else if(notWall==true) notWall = true;
                     }
                 }
             }
