@@ -29,7 +29,17 @@ namespace Example
             Ellipse = new Ellipse();
             Ellipse.Width = w;
             Ellipse.Height = h;
-            Ellipse.Fill = System.Windows.Media.Brushes.Red;
+
+
+            System.Windows.Media.ImageBrush brush = new System.Windows.Media.ImageBrush();
+            brush.ImageSource = new System.Windows.Media.Imaging.BitmapImage(
+                new Uri("fin.png", UriKind.Relative));
+
+            brush.Stretch = System.Windows.Media.Stretch.Fill;
+            Ellipse.Fill = brush;
+
+
+
             Canvas.SetTop(Ellipse, y);
             Canvas.SetLeft(Ellipse, x);
         }

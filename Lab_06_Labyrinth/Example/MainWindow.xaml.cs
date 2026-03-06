@@ -26,6 +26,7 @@ namespace Example
         public MainWindow()
         {
             InitializeComponent();
+
             
             this.Spielfeld.Background = Brushes.Black;
             Canvas c; 
